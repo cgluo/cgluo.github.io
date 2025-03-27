@@ -1,0 +1,107 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "main",
+    "deps": [
+        "internal"
+    ],
+    "uuids": [
+        "03ffbf57-6d3c-4765-993f-2850d4165d3c",
+        "0c4726445",
+        "14dc3937-7edb-4554-bbc6-be29fd9757c3",
+        "1616b80ed",
+        "1616b80ed@6c48a",
+        "1cd529fb-b802-42dc-af07-4d7449406101",
+        "2ab77759-4e49-422d-bb2d-4bb1c9dcadcd",
+        "353cfca7-557f-41e7-b134-9788b2a7647a@f9941",
+        "377bea42-7e96-48c0-8872-51454fa66641@f9941",
+        "44d5f301-64cf-470e-a244-7f013a451fa6@f9941",
+        "58c3cf11-3609-4745-85bf-8e818a5aced5@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@6c48a",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "88f477d9-898f-4965-b18a-b2fa2f98b143",
+        "946ec508-b583-4f91-b780-02dc5b56c103@f9941",
+        "ae09d80e-0099-4bc0-8592-02befadde580",
+        "ae43453f-a33d-4388-ab74-21a117fabdd5@f9941",
+        "b5f8bf76-b4c0-47d6-8634-3156629c86cc@f9941",
+        "ba21476f-2866-4f81-9c4d-6e359316e448",
+        "bb5f97eb-1b2a-4b83-8f45-72edc1588269",
+        "cee4c4b8-5cc9-4340-a9fe-ed14d261e7c7",
+        "d551decf-fd76-468b-b803-7802baf1547e@f9941",
+        "db6702de-1ceb-4ad3-920d-14bada781708@f9941",
+        "eb15fb65-4de9-4cd3-a705-9faa2d40f9e1@f9941",
+        "efc6abcf-6171-4668-9f6e-e71e3525ca67@f9941",
+        "fb168075-7c63-4967-94c9-2af8fa721341",
+        "fb168075-7c63-4967-94c9-2af8fa721341@6c48a",
+        "fb168075-7c63-4967-94c9-2af8fa721341@f9941",
+        "fd8ec536-a354-4a17-9c74-4f3883c378c8"
+    ],
+    "paths": {
+        "2ab77759-4e49-422d-bb2d-4bb1c9dcadcd": [
+            "db:/assets/preload/preload",
+            "cc.SceneAsset",
+            1
+        ],
+        "fd8ec536-a354-4a17-9c74-4f3883c378c8": [
+            "db:/internal/default_renderpipeline/builtin-forward",
+            "cc.RenderPipeline",
+            1
+        ],
+        "ba21476f-2866-4f81-9c4d-6e359316e448": [
+            "db:/internal/physics/default-physics-material",
+            "cc.PhysicsMaterial",
+            1
+        ]
+    },
+    "scenes": {
+        "db://assets/preload/preload.scene": "2ab77759-4e49-422d-bb2d-4bb1c9dcadcd"
+    },
+    "packs": {
+        "0c4726445": [
+            "03ffbf57-6d3c-4765-993f-2850d4165d3c",
+            "14dc3937-7edb-4554-bbc6-be29fd9757c3",
+            "1616b80ed",
+            "1616b80ed@6c48a",
+            "1cd529fb-b802-42dc-af07-4d7449406101",
+            "2ab77759-4e49-422d-bb2d-4bb1c9dcadcd",
+            "353cfca7-557f-41e7-b134-9788b2a7647a@f9941",
+            "377bea42-7e96-48c0-8872-51454fa66641@f9941",
+            "44d5f301-64cf-470e-a244-7f013a451fa6@f9941",
+            "58c3cf11-3609-4745-85bf-8e818a5aced5@f9941",
+            "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca",
+            "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@6c48a",
+            "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+            "88f477d9-898f-4965-b18a-b2fa2f98b143",
+            "946ec508-b583-4f91-b780-02dc5b56c103@f9941",
+            "ae09d80e-0099-4bc0-8592-02befadde580",
+            "ae43453f-a33d-4388-ab74-21a117fabdd5@f9941",
+            "b5f8bf76-b4c0-47d6-8634-3156629c86cc@f9941",
+            "bb5f97eb-1b2a-4b83-8f45-72edc1588269",
+            "d551decf-fd76-468b-b803-7802baf1547e@f9941",
+            "db6702de-1ceb-4ad3-920d-14bada781708@f9941",
+            "eb15fb65-4de9-4cd3-a705-9faa2d40f9e1@f9941",
+            "efc6abcf-6171-4668-9f6e-e71e3525ca67@f9941",
+            "fb168075-7c63-4967-94c9-2af8fa721341",
+            "fb168075-7c63-4967-94c9-2af8fa721341@6c48a",
+            "fb168075-7c63-4967-94c9-2af8fa721341@f9941",
+            "fd8ec536-a354-4a17-9c74-4f3883c378c8"
+        ]
+    },
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [
+        "ba21476f-2866-4f81-9c4d-6e359316e448",
+        "0"
+    ],
+    "debug": true,
+    "extensionMap": {
+        ".cconb": [
+            "cee4c4b8-5cc9-4340-a9fe-ed14d261e7c7"
+        ]
+    },
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}

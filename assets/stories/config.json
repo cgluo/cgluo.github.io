@@ -1,0 +1,127 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "stories",
+    "deps": [
+        "cosmos",
+        "main"
+    ],
+    "uuids": [
+        "0d8130a30",
+        "31c6c055-f7b1-421a-9a3f-f918e491b08a",
+        "3b6a183f-54b8-4e14-930c-d6127e0cfbbb",
+        "3b6a183f-54b8-4e14-930c-d6127e0cfbbb@6c48a",
+        "3b6a183f-54b8-4e14-930c-d6127e0cfbbb@f9941",
+        "3fb83639-6ec7-4f79-8a47-58e3046aa420",
+        "42489081-f7f1-4eaf-baf9-6fa88e350127",
+        "70205344-f54b-495c-9edd-3cfd9b5b6de3",
+        "716253cf-0d9c-4fb8-9042-a824e3d2f5ff",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "9c8d8fe2-9bab-456e-9034-455fce045c17",
+        "a282ceeb-d976-4c88-a4cf-baaa69c04569",
+        "d12eb97e-bea5-4c87-b61f-b29ddd90904f",
+        "de316e36-4f49-4fa1-b103-f6b91590f9fa",
+        "e0ac4454-c977-48c0-b0e2-a12ea734f8a2",
+        "e7aae8c8-25ee-4b3f-bcd9-5d6397c9407c"
+    ],
+    "paths": {
+        "a282ceeb-d976-4c88-a4cf-baaa69c04569": [
+            "patrol/character",
+            "cc.Prefab",
+            1
+        ],
+        "716253cf-0d9c-4fb8-9042-a824e3d2f5ff": [
+            "patrol/patroller",
+            "cc.Prefab",
+            1
+        ],
+        "d12eb97e-bea5-4c87-b61f-b29ddd90904f": [
+            "patrol/peotry-line",
+            "cc.Prefab",
+            1
+        ],
+        "e0ac4454-c977-48c0-b0e2-a12ea734f8a2": [
+            "patrol/anims/over",
+            "cc.AnimationClip",
+            1
+        ],
+        "e7aae8c8-25ee-4b3f-bcd9-5d6397c9407c": [
+            "patrol/anims/peotries",
+            "cc.AnimationClip",
+            1
+        ],
+        "42489081-f7f1-4eaf-baf9-6fa88e350127": [
+            "patrol/anims/start",
+            "cc.AnimationClip",
+            1
+        ],
+        "9c8d8fe2-9bab-456e-9034-455fce045c17": [
+            "patrol/anims/tips",
+            "cc.AnimationClip",
+            1
+        ],
+        "31c6c055-f7b1-421a-9a3f-f918e491b08a": [
+            "patrol/configs/astro-patrol-tasks",
+            "cc.JsonAsset",
+            1
+        ],
+        "de316e36-4f49-4fa1-b103-f6b91590f9fa": [
+            "patrol/fonts/poetry",
+            "cc.BitmapFont",
+            1
+        ],
+        "3b6a183f-54b8-4e14-930c-d6127e0cfbbb": [
+            "patrol/fonts/poetry",
+            "cc.ImageAsset",
+            1
+        ],
+        "3b6a183f-54b8-4e14-930c-d6127e0cfbbb@6c48a": [
+            "patrol/fonts/poetry/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "3b6a183f-54b8-4e14-930c-d6127e0cfbbb@f9941": [
+            "patrol/fonts/poetry/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3fb83639-6ec7-4f79-8a47-58e3046aa420": [
+            "patrol/shaders/label-gradient",
+            "cc.Material",
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {
+        "0d8130a30": [
+            "31c6c055-f7b1-421a-9a3f-f918e491b08a",
+            "3b6a183f-54b8-4e14-930c-d6127e0cfbbb@f9941",
+            "3fb83639-6ec7-4f79-8a47-58e3046aa420",
+            "716253cf-0d9c-4fb8-9042-a824e3d2f5ff",
+            "a282ceeb-d976-4c88-a4cf-baaa69c04569",
+            "d12eb97e-bea5-4c87-b61f-b29ddd90904f",
+            "de316e36-4f49-4fa1-b103-f6b91590f9fa"
+        ]
+    },
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [
+        "70205344-f54b-495c-9edd-3cfd9b5b6de3",
+        "0",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "1"
+    ],
+    "debug": true,
+    "extensionMap": {
+        ".cconb": [
+            "42489081-f7f1-4eaf-baf9-6fa88e350127",
+            "9c8d8fe2-9bab-456e-9034-455fce045c17",
+            "e0ac4454-c977-48c0-b0e2-a12ea734f8a2",
+            "e7aae8c8-25ee-4b3f-bcd9-5d6397c9407c"
+        ]
+    },
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}

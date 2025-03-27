@@ -1,0 +1,837 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "resources",
+    "deps": [],
+    "uuids": [
+        "05b446176",
+        "061fad66-cc8f-4bb4-a156-a32f0c377446",
+        "061fad66-cc8f-4bb4-a156-a32f0c377446@6c48a",
+        "06891498-e309-4cf9-9769-1cfc2128bcfa",
+        "06891498-e309-4cf9-9769-1cfc2128bcfa@6c48a",
+        "0703a09d-02d6-4565-8116-33c0e202b978",
+        "0703a09d-02d6-4565-8116-33c0e202b978@6c48a",
+        "07b10adc-4f4f-4e02-a4aa-5a6863bbd56c",
+        "07b10adc-4f4f-4e02-a4aa-5a6863bbd56c@6c48a",
+        "092cbc4d-73e1-4f38-92de-da75f4de8ff6",
+        "092cbc4d-73e1-4f38-92de-da75f4de8ff6@6c48a",
+        "0e01d5bb-6c00-4110-8490-a1974eb51332",
+        "0e01d5bb-6c00-4110-8490-a1974eb51332@6c48a",
+        "0fe299d7-3eef-4cff-aa8c-6303ea625828",
+        "0fe299d7-3eef-4cff-aa8c-6303ea625828@6c48a",
+        "159ea39e-510e-417f-87da-04b41e178e47",
+        "159ea39e-510e-417f-87da-04b41e178e47@6c48a",
+        "17cdec36-6117-4759-b14c-afdc0da8b123",
+        "17cdec36-6117-4759-b14c-afdc0da8b123@6c48a",
+        "183ea6ed-2bc7-43da-b156-78b5de5d54a8",
+        "183ea6ed-2bc7-43da-b156-78b5de5d54a8@6c48a",
+        "236717ac-9515-4094-818d-cfa855c5ef6a",
+        "236717ac-9515-4094-818d-cfa855c5ef6a@6c48a",
+        "254d04dd-c073-4741-8a46-28fd01aadbe7",
+        "254d04dd-c073-4741-8a46-28fd01aadbe7@6c48a",
+        "28e4dbc7-d934-4197-8703-935926edfe09",
+        "28e4dbc7-d934-4197-8703-935926edfe09@6c48a",
+        "2ad4247c-24d4-4a29-a080-a6c05482faee",
+        "2ad4247c-24d4-4a29-a080-a6c05482faee@6c48a",
+        "31887d0f-37db-49cf-81c8-408ddef2a6ea",
+        "31887d0f-37db-49cf-81c8-408ddef2a6ea@6c48a",
+        "33e47cef-02cb-417f-901d-12a2d619e479",
+        "33e47cef-02cb-417f-901d-12a2d619e479@6c48a",
+        "378de044-0fa6-4579-956d-89192f8878bc",
+        "378de044-0fa6-4579-956d-89192f8878bc@6c48a",
+        "46da23b0-1955-4c87-b265-e86841b5f1d7",
+        "46da23b0-1955-4c87-b265-e86841b5f1d7@6c48a",
+        "4a4f7049-f33a-455b-818c-09d52d405f42",
+        "4a4f7049-f33a-455b-818c-09d52d405f42@6c48a",
+        "4a4f7049-f33a-455b-818c-09d52d405f42@f9941",
+        "4c052c11-45e8-4f2a-b86a-c94ef88bd448",
+        "4c052c11-45e8-4f2a-b86a-c94ef88bd448@6c48a",
+        "4c052c11-45e8-4f2a-b86a-c94ef88bd448@f9941",
+        "52adce49-4c50-4988-a703-6b4d2d11afe2",
+        "52adce49-4c50-4988-a703-6b4d2d11afe2@6c48a",
+        "52f16aa0-172f-4741-b728-19013db1c54b",
+        "52f16aa0-172f-4741-b728-19013db1c54b@6c48a",
+        "58ae442a-bf8c-4113-81a9-296dd58dc1a3",
+        "58ae442a-bf8c-4113-81a9-296dd58dc1a3@6c48a",
+        "60b1c4d0-7734-4fe0-b3e9-aff6b767d113",
+        "60b1c4d0-7734-4fe0-b3e9-aff6b767d113@6c48a",
+        "60f71ce9-32e4-4068-931f-6c4eadb79e05",
+        "60f71ce9-32e4-4068-931f-6c4eadb79e05@6c48a",
+        "614f7caa-75fe-4e61-bd29-ba05b4b1376f",
+        "614f7caa-75fe-4e61-bd29-ba05b4b1376f@6c48a",
+        "61731f5a-1e76-4c7a-a99d-8a475ea342b6",
+        "61731f5a-1e76-4c7a-a99d-8a475ea342b6@6c48a",
+        "642e61ee-c8a0-416d-ba69-ef153c60ac87",
+        "642e61ee-c8a0-416d-ba69-ef153c60ac87@6c48a",
+        "646d1d2f-6c5d-4d02-8928-54ff6e3f6423",
+        "646d1d2f-6c5d-4d02-8928-54ff6e3f6423@6c48a",
+        "699ab088-8c50-4707-8b01-1ed84b3a16f7",
+        "699ab088-8c50-4707-8b01-1ed84b3a16f7@6c48a",
+        "7463e99c-7eb4-4854-91f8-e98345d2adbe",
+        "7463e99c-7eb4-4854-91f8-e98345d2adbe@6c48a",
+        "74fe42df-28e1-451b-b2b9-7b0835886d9a",
+        "74fe42df-28e1-451b-b2b9-7b0835886d9a@6c48a",
+        "7daa7d60-a565-4d11-b370-c4e6e4cb9b88",
+        "7daa7d60-a565-4d11-b370-c4e6e4cb9b88@6c48a",
+        "872c47f1-3e5a-4c5f-b7fd-dd3d8bcf96e8",
+        "872c47f1-3e5a-4c5f-b7fd-dd3d8bcf96e8@6c48a",
+        "8730255e-3bc6-4a9a-9a6a-6c9c135dbfdb",
+        "8730255e-3bc6-4a9a-9a6a-6c9c135dbfdb@6c48a",
+        "8a0a2482-8bc7-47e5-b7cc-9e698bd47d06",
+        "8a0a2482-8bc7-47e5-b7cc-9e698bd47d06@6c48a",
+        "8d982057-f8ae-470a-8e9b-99b05731eaca",
+        "8d982057-f8ae-470a-8e9b-99b05731eaca@6c48a",
+        "a02129e1-7c2b-4b0b-9258-159e27aa47e3",
+        "a02129e1-7c2b-4b0b-9258-159e27aa47e3@6c48a",
+        "a079c77d-1e2c-4fef-97cb-3e54caef0887",
+        "a079c77d-1e2c-4fef-97cb-3e54caef0887@6c48a",
+        "ad5fb466-9951-4287-949f-f1e85b40b430",
+        "ad5fb466-9951-4287-949f-f1e85b40b430@6c48a",
+        "ae5a842a-1316-4013-b8ce-0b8785343d6c",
+        "ae5a842a-1316-4013-b8ce-0b8785343d6c@6c48a",
+        "b413f8a6-2a15-4db3-bffe-c453876f033e",
+        "b413f8a6-2a15-4db3-bffe-c453876f033e@6c48a",
+        "bb495b91-2c18-4ccc-a2e5-947ed9009901",
+        "bb495b91-2c18-4ccc-a2e5-947ed9009901@6c48a",
+        "bde7485b-f955-456f-9ba8-690b48ecea20",
+        "bde7485b-f955-456f-9ba8-690b48ecea20@6c48a",
+        "c894468f-041a-4eb1-b336-18fe25da873c",
+        "c894468f-041a-4eb1-b336-18fe25da873c@6c48a",
+        "cd65d33d-ce90-47cd-814e-e26897d25807",
+        "cd65d33d-ce90-47cd-814e-e26897d25807@6c48a",
+        "ce0aca95-1ed0-4476-bf74-b562b5d44d41",
+        "ce0aca95-1ed0-4476-bf74-b562b5d44d41@6c48a",
+        "d36aee32-a0bc-4c5a-810f-de4a63074e37",
+        "d36aee32-a0bc-4c5a-810f-de4a63074e37@6c48a",
+        "d4b7ec9e-d985-4457-92f0-abfd6dc8a221",
+        "d4b7ec9e-d985-4457-92f0-abfd6dc8a221@6c48a",
+        "d4b7ec9e-d985-4457-92f0-abfd6dc8a221@f9941",
+        "de3f474e-c8c8-4320-a8e7-153a8f5d4b1f",
+        "de3f474e-c8c8-4320-a8e7-153a8f5d4b1f@6c48a",
+        "e5421b54-206d-4baa-a384-a9fd3f7396a3",
+        "e5421b54-206d-4baa-a384-a9fd3f7396a3@6c48a",
+        "e827f846-3185-43a6-8128-7c10cff17ec9",
+        "e827f846-3185-43a6-8128-7c10cff17ec9@6c48a",
+        "ebc8ca7d-a594-47bc-b0a1-826ca6fd9b9b",
+        "ebc8ca7d-a594-47bc-b0a1-826ca6fd9b9b@6c48a",
+        "f4f819d4-b72e-48da-b027-9fbd721d3c5b",
+        "f4f819d4-b72e-48da-b027-9fbd721d3c5b@6c48a",
+        "f5771d60-0620-4267-8659-e4febed57c2d",
+        "f5771d60-0620-4267-8659-e4febed57c2d@6c48a",
+        "f5771d60-0620-4267-8659-e4febed57c2d@f9941",
+        "f8b123e0-5fac-4e97-8c38-1f991a9f883e",
+        "f8b123e0-5fac-4e97-8c38-1f991a9f883e@6c48a"
+    ],
+    "paths": {
+        "d4b7ec9e-d985-4457-92f0-abfd6dc8a221": [
+            "mid-high-reserved/sun-albedo-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "d4b7ec9e-d985-4457-92f0-abfd6dc8a221@6c48a": [
+            "mid-high-reserved/sun-albedo-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "d4b7ec9e-d985-4457-92f0-abfd6dc8a221@f9941": [
+            "mid-high-reserved/sun-albedo-0/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "4c052c11-45e8-4f2a-b86a-c94ef88bd448": [
+            "mid-high-reserved/sun-albedo-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "4c052c11-45e8-4f2a-b86a-c94ef88bd448@6c48a": [
+            "mid-high-reserved/sun-albedo-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "4c052c11-45e8-4f2a-b86a-c94ef88bd448@f9941": [
+            "mid-high-reserved/sun-albedo-1/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "236717ac-9515-4094-818d-cfa855c5ef6a": [
+            "webp-reserved/astronomical-planes",
+            "cc.ImageAsset",
+            1
+        ],
+        "236717ac-9515-4094-818d-cfa855c5ef6a@6c48a": [
+            "webp-reserved/astronomical-planes/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "4a4f7049-f33a-455b-818c-09d52d405f42": [
+            "webp-reserved/constellations-northern",
+            "cc.ImageAsset",
+            1
+        ],
+        "4a4f7049-f33a-455b-818c-09d52d405f42@6c48a": [
+            "webp-reserved/constellations-northern/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "4a4f7049-f33a-455b-818c-09d52d405f42@f9941": [
+            "webp-reserved/constellations-northern/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f5771d60-0620-4267-8659-e4febed57c2d": [
+            "webp-reserved/constellations-southern",
+            "cc.ImageAsset",
+            1
+        ],
+        "f5771d60-0620-4267-8659-e4febed57c2d@6c48a": [
+            "webp-reserved/constellations-southern/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "f5771d60-0620-4267-8659-e4febed57c2d@f9941": [
+            "webp-reserved/constellations-southern/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "bde7485b-f955-456f-9ba8-690b48ecea20": [
+            "textures/celestial/dwarfs-0-high-albedo",
+            "cc.ImageAsset",
+            1
+        ],
+        "bde7485b-f955-456f-9ba8-690b48ecea20@6c48a": [
+            "textures/celestial/dwarfs-0-high-albedo/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "061fad66-cc8f-4bb4-a156-a32f0c377446": [
+            "textures/celestial/dwarfs-0-high-normal",
+            "cc.ImageAsset",
+            1
+        ],
+        "061fad66-cc8f-4bb4-a156-a32f0c377446@6c48a": [
+            "textures/celestial/dwarfs-0-high-normal/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "60b1c4d0-7734-4fe0-b3e9-aff6b767d113": [
+            "textures/celestial/dwarfs-1-high-albedo",
+            "cc.ImageAsset",
+            1
+        ],
+        "60b1c4d0-7734-4fe0-b3e9-aff6b767d113@6c48a": [
+            "textures/celestial/dwarfs-1-high-albedo/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "cd65d33d-ce90-47cd-814e-e26897d25807": [
+            "textures/celestial/dwarfs-1-high-normal",
+            "cc.ImageAsset",
+            1
+        ],
+        "cd65d33d-ce90-47cd-814e-e26897d25807@6c48a": [
+            "textures/celestial/dwarfs-1-high-normal/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "f8b123e0-5fac-4e97-8c38-1f991a9f883e": [
+            "textures/celestial/dwarfs-2-high-albedo",
+            "cc.ImageAsset",
+            1
+        ],
+        "f8b123e0-5fac-4e97-8c38-1f991a9f883e@6c48a": [
+            "textures/celestial/dwarfs-2-high-albedo/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "872c47f1-3e5a-4c5f-b7fd-dd3d8bcf96e8": [
+            "textures/celestial/dwarfs-2-high-normal",
+            "cc.ImageAsset",
+            1
+        ],
+        "872c47f1-3e5a-4c5f-b7fd-dd3d8bcf96e8@6c48a": [
+            "textures/celestial/dwarfs-2-high-normal/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "52f16aa0-172f-4741-b728-19013db1c54b": [
+            "textures/celestial/earth-albedo-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "52f16aa0-172f-4741-b728-19013db1c54b@6c48a": [
+            "textures/celestial/earth-albedo-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "74fe42df-28e1-451b-b2b9-7b0835886d9a": [
+            "textures/celestial/earth-albedo-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "74fe42df-28e1-451b-b2b9-7b0835886d9a@6c48a": [
+            "textures/celestial/earth-albedo-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "07b10adc-4f4f-4e02-a4aa-5a6863bbd56c": [
+            "textures/celestial/earth-clouds-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "07b10adc-4f4f-4e02-a4aa-5a6863bbd56c@6c48a": [
+            "textures/celestial/earth-clouds-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "0e01d5bb-6c00-4110-8490-a1974eb51332": [
+            "textures/celestial/earth-clouds-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "0e01d5bb-6c00-4110-8490-a1974eb51332@6c48a": [
+            "textures/celestial/earth-clouds-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "378de044-0fa6-4579-956d-89192f8878bc": [
+            "textures/celestial/earth-emissive-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "378de044-0fa6-4579-956d-89192f8878bc@6c48a": [
+            "textures/celestial/earth-emissive-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "642e61ee-c8a0-416d-ba69-ef153c60ac87": [
+            "textures/celestial/earth-emissive-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "642e61ee-c8a0-416d-ba69-ef153c60ac87@6c48a": [
+            "textures/celestial/earth-emissive-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "0703a09d-02d6-4565-8116-33c0e202b978": [
+            "textures/celestial/earth-normal-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "0703a09d-02d6-4565-8116-33c0e202b978@6c48a": [
+            "textures/celestial/earth-normal-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "58ae442a-bf8c-4113-81a9-296dd58dc1a3": [
+            "textures/celestial/earth-normal-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "58ae442a-bf8c-4113-81a9-296dd58dc1a3@6c48a": [
+            "textures/celestial/earth-normal-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "254d04dd-c073-4741-8a46-28fd01aadbe7": [
+            "textures/celestial/jupiter-albedo-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "254d04dd-c073-4741-8a46-28fd01aadbe7@6c48a": [
+            "textures/celestial/jupiter-albedo-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "e827f846-3185-43a6-8128-7c10cff17ec9": [
+            "textures/celestial/jupiter-albedo-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "e827f846-3185-43a6-8128-7c10cff17ec9@6c48a": [
+            "textures/celestial/jupiter-albedo-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "61731f5a-1e76-4c7a-a99d-8a475ea342b6": [
+            "textures/celestial/mars-albedo-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "61731f5a-1e76-4c7a-a99d-8a475ea342b6@6c48a": [
+            "textures/celestial/mars-albedo-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "bb495b91-2c18-4ccc-a2e5-947ed9009901": [
+            "textures/celestial/mars-albedo-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "bb495b91-2c18-4ccc-a2e5-947ed9009901@6c48a": [
+            "textures/celestial/mars-albedo-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "2ad4247c-24d4-4a29-a080-a6c05482faee": [
+            "textures/celestial/mars-clouds-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "2ad4247c-24d4-4a29-a080-a6c05482faee@6c48a": [
+            "textures/celestial/mars-clouds-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "c894468f-041a-4eb1-b336-18fe25da873c": [
+            "textures/celestial/mars-clouds-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "c894468f-041a-4eb1-b336-18fe25da873c@6c48a": [
+            "textures/celestial/mars-clouds-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "a02129e1-7c2b-4b0b-9258-159e27aa47e3": [
+            "textures/celestial/mars-normal-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "a02129e1-7c2b-4b0b-9258-159e27aa47e3@6c48a": [
+            "textures/celestial/mars-normal-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "183ea6ed-2bc7-43da-b156-78b5de5d54a8": [
+            "textures/celestial/mars-normal-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "183ea6ed-2bc7-43da-b156-78b5de5d54a8@6c48a": [
+            "textures/celestial/mars-normal-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "46da23b0-1955-4c87-b265-e86841b5f1d7": [
+            "textures/celestial/mercury-albedo-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "46da23b0-1955-4c87-b265-e86841b5f1d7@6c48a": [
+            "textures/celestial/mercury-albedo-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "e5421b54-206d-4baa-a384-a9fd3f7396a3": [
+            "textures/celestial/mercury-albedo-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "e5421b54-206d-4baa-a384-a9fd3f7396a3@6c48a": [
+            "textures/celestial/mercury-albedo-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "159ea39e-510e-417f-87da-04b41e178e47": [
+            "textures/celestial/mercury-normal-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "159ea39e-510e-417f-87da-04b41e178e47@6c48a": [
+            "textures/celestial/mercury-normal-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "ebc8ca7d-a594-47bc-b0a1-826ca6fd9b9b": [
+            "textures/celestial/mercury-normal-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "ebc8ca7d-a594-47bc-b0a1-826ca6fd9b9b@6c48a": [
+            "textures/celestial/mercury-normal-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "ad5fb466-9951-4287-949f-f1e85b40b430": [
+            "textures/celestial/neptune-albedo-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "ad5fb466-9951-4287-949f-f1e85b40b430@6c48a": [
+            "textures/celestial/neptune-albedo-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "699ab088-8c50-4707-8b01-1ed84b3a16f7": [
+            "textures/celestial/neptune-albedo-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "699ab088-8c50-4707-8b01-1ed84b3a16f7@6c48a": [
+            "textures/celestial/neptune-albedo-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "d36aee32-a0bc-4c5a-810f-de4a63074e37": [
+            "textures/celestial/sand-albedo",
+            "cc.ImageAsset",
+            1
+        ],
+        "d36aee32-a0bc-4c5a-810f-de4a63074e37@6c48a": [
+            "textures/celestial/sand-albedo/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "092cbc4d-73e1-4f38-92de-da75f4de8ff6": [
+            "textures/celestial/sand-normal",
+            "cc.ImageAsset",
+            1
+        ],
+        "092cbc4d-73e1-4f38-92de-da75f4de8ff6@6c48a": [
+            "textures/celestial/sand-normal/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "a079c77d-1e2c-4fef-97cb-3e54caef0887": [
+            "textures/celestial/sand-pbr",
+            "cc.ImageAsset",
+            1
+        ],
+        "a079c77d-1e2c-4fef-97cb-3e54caef0887@6c48a": [
+            "textures/celestial/sand-pbr/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "ae5a842a-1316-4013-b8ce-0b8785343d6c": [
+            "textures/celestial/saturn-albedo-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "ae5a842a-1316-4013-b8ce-0b8785343d6c@6c48a": [
+            "textures/celestial/saturn-albedo-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "60f71ce9-32e4-4068-931f-6c4eadb79e05": [
+            "textures/celestial/saturn-albedo-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "60f71ce9-32e4-4068-931f-6c4eadb79e05@6c48a": [
+            "textures/celestial/saturn-albedo-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "7daa7d60-a565-4d11-b370-c4e6e4cb9b88": [
+            "textures/celestial/sun-albedo-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "7daa7d60-a565-4d11-b370-c4e6e4cb9b88@6c48a": [
+            "textures/celestial/sun-albedo-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "8d982057-f8ae-470a-8e9b-99b05731eaca": [
+            "textures/celestial/sun-albedo-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "8d982057-f8ae-470a-8e9b-99b05731eaca@6c48a": [
+            "textures/celestial/sun-albedo-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "8730255e-3bc6-4a9a-9a6a-6c9c135dbfdb": [
+            "textures/celestial/uranus-albedo-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "8730255e-3bc6-4a9a-9a6a-6c9c135dbfdb@6c48a": [
+            "textures/celestial/uranus-albedo-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "b413f8a6-2a15-4db3-bffe-c453876f033e": [
+            "textures/celestial/uranus-albedo-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "b413f8a6-2a15-4db3-bffe-c453876f033e@6c48a": [
+            "textures/celestial/uranus-albedo-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "de3f474e-c8c8-4320-a8e7-153a8f5d4b1f": [
+            "textures/celestial/venus-albedo-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "de3f474e-c8c8-4320-a8e7-153a8f5d4b1f@6c48a": [
+            "textures/celestial/venus-albedo-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "f4f819d4-b72e-48da-b027-9fbd721d3c5b": [
+            "textures/celestial/venus-albedo-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "f4f819d4-b72e-48da-b027-9fbd721d3c5b@6c48a": [
+            "textures/celestial/venus-albedo-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "8a0a2482-8bc7-47e5-b7cc-9e698bd47d06": [
+            "textures/celestial/venus-clouds-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "8a0a2482-8bc7-47e5-b7cc-9e698bd47d06@6c48a": [
+            "textures/celestial/venus-clouds-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "ce0aca95-1ed0-4476-bf74-b562b5d44d41": [
+            "textures/celestial/venus-clouds-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "ce0aca95-1ed0-4476-bf74-b562b5d44d41@6c48a": [
+            "textures/celestial/venus-clouds-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "28e4dbc7-d934-4197-8703-935926edfe09": [
+            "textures/celestial/venus-normal-0",
+            "cc.ImageAsset",
+            1
+        ],
+        "28e4dbc7-d934-4197-8703-935926edfe09@6c48a": [
+            "textures/celestial/venus-normal-0/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "52adce49-4c50-4988-a703-6b4d2d11afe2": [
+            "textures/celestial/venus-normal-1",
+            "cc.ImageAsset",
+            1
+        ],
+        "52adce49-4c50-4988-a703-6b4d2d11afe2@6c48a": [
+            "textures/celestial/venus-normal-1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "31887d0f-37db-49cf-81c8-408ddef2a6ea": [
+            "textures/deep-sky/messier-galaxies",
+            "cc.ImageAsset",
+            1
+        ],
+        "31887d0f-37db-49cf-81c8-408ddef2a6ea@6c48a": [
+            "textures/deep-sky/messier-galaxies/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "7463e99c-7eb4-4854-91f8-e98345d2adbe": [
+            "textures/deep-sky/messier-inners",
+            "cc.ImageAsset",
+            1
+        ],
+        "7463e99c-7eb4-4854-91f8-e98345d2adbe@6c48a": [
+            "textures/deep-sky/messier-inners/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "0fe299d7-3eef-4cff-aa8c-6303ea625828": [
+            "textures/deep-sky/super-clusters",
+            "cc.ImageAsset",
+            1
+        ],
+        "0fe299d7-3eef-4cff-aa8c-6303ea625828@6c48a": [
+            "textures/deep-sky/super-clusters/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "646d1d2f-6c5d-4d02-8928-54ff6e3f6423": [
+            "textures/milky-way/disk-horizontal",
+            "cc.ImageAsset",
+            1
+        ],
+        "646d1d2f-6c5d-4d02-8928-54ff6e3f6423@6c48a": [
+            "textures/milky-way/disk-horizontal/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "06891498-e309-4cf9-9769-1cfc2128bcfa": [
+            "textures/milky-way/disk-vertical",
+            "cc.ImageAsset",
+            1
+        ],
+        "06891498-e309-4cf9-9769-1cfc2128bcfa@6c48a": [
+            "textures/milky-way/disk-vertical/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "33e47cef-02cb-417f-901d-12a2d619e479": [
+            "textures/planetary/astronomical-planes",
+            "cc.ImageAsset",
+            1
+        ],
+        "33e47cef-02cb-417f-901d-12a2d619e479@6c48a": [
+            "textures/planetary/astronomical-planes/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "17cdec36-6117-4759-b14c-afdc0da8b123": [
+            "textures/stellar/constellations-northern",
+            "cc.ImageAsset",
+            1
+        ],
+        "17cdec36-6117-4759-b14c-afdc0da8b123@6c48a": [
+            "textures/stellar/constellations-northern/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "614f7caa-75fe-4e61-bd29-ba05b4b1376f": [
+            "textures/stellar/constellations-southern",
+            "cc.ImageAsset",
+            1
+        ],
+        "614f7caa-75fe-4e61-bd29-ba05b4b1376f@6c48a": [
+            "textures/stellar/constellations-southern/texture",
+            "cc.Texture2D",
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {
+        "05b446176": [
+            "061fad66-cc8f-4bb4-a156-a32f0c377446",
+            "061fad66-cc8f-4bb4-a156-a32f0c377446@6c48a",
+            "06891498-e309-4cf9-9769-1cfc2128bcfa",
+            "06891498-e309-4cf9-9769-1cfc2128bcfa@6c48a",
+            "0703a09d-02d6-4565-8116-33c0e202b978",
+            "0703a09d-02d6-4565-8116-33c0e202b978@6c48a",
+            "07b10adc-4f4f-4e02-a4aa-5a6863bbd56c",
+            "07b10adc-4f4f-4e02-a4aa-5a6863bbd56c@6c48a",
+            "092cbc4d-73e1-4f38-92de-da75f4de8ff6",
+            "092cbc4d-73e1-4f38-92de-da75f4de8ff6@6c48a",
+            "0e01d5bb-6c00-4110-8490-a1974eb51332",
+            "0e01d5bb-6c00-4110-8490-a1974eb51332@6c48a",
+            "0fe299d7-3eef-4cff-aa8c-6303ea625828",
+            "0fe299d7-3eef-4cff-aa8c-6303ea625828@6c48a",
+            "159ea39e-510e-417f-87da-04b41e178e47",
+            "159ea39e-510e-417f-87da-04b41e178e47@6c48a",
+            "17cdec36-6117-4759-b14c-afdc0da8b123",
+            "17cdec36-6117-4759-b14c-afdc0da8b123@6c48a",
+            "183ea6ed-2bc7-43da-b156-78b5de5d54a8",
+            "183ea6ed-2bc7-43da-b156-78b5de5d54a8@6c48a",
+            "236717ac-9515-4094-818d-cfa855c5ef6a",
+            "236717ac-9515-4094-818d-cfa855c5ef6a@6c48a",
+            "254d04dd-c073-4741-8a46-28fd01aadbe7",
+            "254d04dd-c073-4741-8a46-28fd01aadbe7@6c48a",
+            "28e4dbc7-d934-4197-8703-935926edfe09",
+            "28e4dbc7-d934-4197-8703-935926edfe09@6c48a",
+            "2ad4247c-24d4-4a29-a080-a6c05482faee",
+            "2ad4247c-24d4-4a29-a080-a6c05482faee@6c48a",
+            "31887d0f-37db-49cf-81c8-408ddef2a6ea",
+            "31887d0f-37db-49cf-81c8-408ddef2a6ea@6c48a",
+            "33e47cef-02cb-417f-901d-12a2d619e479",
+            "33e47cef-02cb-417f-901d-12a2d619e479@6c48a",
+            "378de044-0fa6-4579-956d-89192f8878bc",
+            "378de044-0fa6-4579-956d-89192f8878bc@6c48a",
+            "46da23b0-1955-4c87-b265-e86841b5f1d7",
+            "46da23b0-1955-4c87-b265-e86841b5f1d7@6c48a",
+            "4a4f7049-f33a-455b-818c-09d52d405f42",
+            "4a4f7049-f33a-455b-818c-09d52d405f42@6c48a",
+            "4a4f7049-f33a-455b-818c-09d52d405f42@f9941",
+            "4c052c11-45e8-4f2a-b86a-c94ef88bd448",
+            "4c052c11-45e8-4f2a-b86a-c94ef88bd448@6c48a",
+            "4c052c11-45e8-4f2a-b86a-c94ef88bd448@f9941",
+            "52adce49-4c50-4988-a703-6b4d2d11afe2",
+            "52adce49-4c50-4988-a703-6b4d2d11afe2@6c48a",
+            "52f16aa0-172f-4741-b728-19013db1c54b",
+            "52f16aa0-172f-4741-b728-19013db1c54b@6c48a",
+            "58ae442a-bf8c-4113-81a9-296dd58dc1a3",
+            "58ae442a-bf8c-4113-81a9-296dd58dc1a3@6c48a",
+            "60b1c4d0-7734-4fe0-b3e9-aff6b767d113",
+            "60b1c4d0-7734-4fe0-b3e9-aff6b767d113@6c48a",
+            "60f71ce9-32e4-4068-931f-6c4eadb79e05",
+            "60f71ce9-32e4-4068-931f-6c4eadb79e05@6c48a",
+            "614f7caa-75fe-4e61-bd29-ba05b4b1376f",
+            "614f7caa-75fe-4e61-bd29-ba05b4b1376f@6c48a",
+            "61731f5a-1e76-4c7a-a99d-8a475ea342b6",
+            "61731f5a-1e76-4c7a-a99d-8a475ea342b6@6c48a",
+            "642e61ee-c8a0-416d-ba69-ef153c60ac87",
+            "642e61ee-c8a0-416d-ba69-ef153c60ac87@6c48a",
+            "646d1d2f-6c5d-4d02-8928-54ff6e3f6423",
+            "646d1d2f-6c5d-4d02-8928-54ff6e3f6423@6c48a",
+            "699ab088-8c50-4707-8b01-1ed84b3a16f7",
+            "699ab088-8c50-4707-8b01-1ed84b3a16f7@6c48a",
+            "7463e99c-7eb4-4854-91f8-e98345d2adbe",
+            "7463e99c-7eb4-4854-91f8-e98345d2adbe@6c48a",
+            "74fe42df-28e1-451b-b2b9-7b0835886d9a",
+            "74fe42df-28e1-451b-b2b9-7b0835886d9a@6c48a",
+            "7daa7d60-a565-4d11-b370-c4e6e4cb9b88",
+            "7daa7d60-a565-4d11-b370-c4e6e4cb9b88@6c48a",
+            "872c47f1-3e5a-4c5f-b7fd-dd3d8bcf96e8",
+            "872c47f1-3e5a-4c5f-b7fd-dd3d8bcf96e8@6c48a",
+            "8730255e-3bc6-4a9a-9a6a-6c9c135dbfdb",
+            "8730255e-3bc6-4a9a-9a6a-6c9c135dbfdb@6c48a",
+            "8a0a2482-8bc7-47e5-b7cc-9e698bd47d06",
+            "8a0a2482-8bc7-47e5-b7cc-9e698bd47d06@6c48a",
+            "8d982057-f8ae-470a-8e9b-99b05731eaca",
+            "8d982057-f8ae-470a-8e9b-99b05731eaca@6c48a",
+            "a02129e1-7c2b-4b0b-9258-159e27aa47e3",
+            "a02129e1-7c2b-4b0b-9258-159e27aa47e3@6c48a",
+            "a079c77d-1e2c-4fef-97cb-3e54caef0887",
+            "a079c77d-1e2c-4fef-97cb-3e54caef0887@6c48a",
+            "ad5fb466-9951-4287-949f-f1e85b40b430",
+            "ad5fb466-9951-4287-949f-f1e85b40b430@6c48a",
+            "ae5a842a-1316-4013-b8ce-0b8785343d6c",
+            "ae5a842a-1316-4013-b8ce-0b8785343d6c@6c48a",
+            "b413f8a6-2a15-4db3-bffe-c453876f033e",
+            "b413f8a6-2a15-4db3-bffe-c453876f033e@6c48a",
+            "bb495b91-2c18-4ccc-a2e5-947ed9009901",
+            "bb495b91-2c18-4ccc-a2e5-947ed9009901@6c48a",
+            "bde7485b-f955-456f-9ba8-690b48ecea20",
+            "bde7485b-f955-456f-9ba8-690b48ecea20@6c48a",
+            "c894468f-041a-4eb1-b336-18fe25da873c",
+            "c894468f-041a-4eb1-b336-18fe25da873c@6c48a",
+            "cd65d33d-ce90-47cd-814e-e26897d25807",
+            "cd65d33d-ce90-47cd-814e-e26897d25807@6c48a",
+            "ce0aca95-1ed0-4476-bf74-b562b5d44d41",
+            "ce0aca95-1ed0-4476-bf74-b562b5d44d41@6c48a",
+            "d36aee32-a0bc-4c5a-810f-de4a63074e37",
+            "d36aee32-a0bc-4c5a-810f-de4a63074e37@6c48a",
+            "d4b7ec9e-d985-4457-92f0-abfd6dc8a221",
+            "d4b7ec9e-d985-4457-92f0-abfd6dc8a221@6c48a",
+            "d4b7ec9e-d985-4457-92f0-abfd6dc8a221@f9941",
+            "de3f474e-c8c8-4320-a8e7-153a8f5d4b1f",
+            "de3f474e-c8c8-4320-a8e7-153a8f5d4b1f@6c48a",
+            "e5421b54-206d-4baa-a384-a9fd3f7396a3",
+            "e5421b54-206d-4baa-a384-a9fd3f7396a3@6c48a",
+            "e827f846-3185-43a6-8128-7c10cff17ec9",
+            "e827f846-3185-43a6-8128-7c10cff17ec9@6c48a",
+            "ebc8ca7d-a594-47bc-b0a1-826ca6fd9b9b",
+            "ebc8ca7d-a594-47bc-b0a1-826ca6fd9b9b@6c48a",
+            "f4f819d4-b72e-48da-b027-9fbd721d3c5b",
+            "f4f819d4-b72e-48da-b027-9fbd721d3c5b@6c48a",
+            "f5771d60-0620-4267-8659-e4febed57c2d",
+            "f5771d60-0620-4267-8659-e4febed57c2d@6c48a",
+            "f5771d60-0620-4267-8659-e4febed57c2d@f9941",
+            "f8b123e0-5fac-4e97-8c38-1f991a9f883e",
+            "f8b123e0-5fac-4e97-8c38-1f991a9f883e@6c48a"
+        ]
+    },
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}
