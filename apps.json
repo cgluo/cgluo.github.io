@@ -1,0 +1,18 @@
+{
+  "site": {
+    "title": "cgluo",
+    "subtitle": "个人 Web 项目与实验合集"
+  },
+  "apps": [
+    {
+      "folder": "cocosmos",
+      "name": "Cocosmos | 掌上宇宙",
+      "description": "基于 Cocos Creator 构建的交互式 3D 掌上宇宙体验",
+      "tags": ["3D", "Cocos"],
+      "cover": "",
+      "entry": "index.html",
+      "newTab": false,
+      "hidden": false
+    }
+  ]
+}
