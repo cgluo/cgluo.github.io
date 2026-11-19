@@ -12,7 +12,9 @@
       "cover": "",
       "entry": "index.html",
       "newTab": false,
-      "hidden": false
+      "hidden": false,
+      "cacheBust": false,
+      "version": "1.0.0"
     }
   ]
 }

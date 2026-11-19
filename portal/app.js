@@ -2,6 +2,7 @@ const state = {
   apps: [],
   query: "",
   tag: "all",
+  cacheToken: Date.now().toString(36),
 };
 
 const els = {
@@ -23,7 +24,24 @@ function encodePath(value) {
     .join("/");
 }
 
-function appHref(app) {
+function appendQueryParam(url, key, value) {
+  const hashIndex = url.indexOf("#");
+  const withoutHash = hashIndex === -1 ? url : url.slice(0, hashIndex);
+  const hash = hashIndex === -1 ? "" : url.slice(hashIndex);
+  const separator = withoutHash.includes("?") ? "&" : "?";
+  return `${withoutHash}${separator}${encodeURIComponent(key)}=${encodeURIComponent(value)}${hash}`;
+}
+
+function appVersion(app) {
+  if (app.version === undefined || app.version === null) return "";
+  return String(app.version).trim();
+}
+
+function isCacheBustEnabled(app) {
+  return app.cacheBust !== false;
+}
+
+function appBaseHref(app) {
   const folder = encodePath(app.folder);
   const entry = String(app.entry || "index.html").trim();
   if (!entry || entry === "index.html") {
@@ -32,13 +50,38 @@ function appHref(app) {
   return `./apps/${folder}/${encodePath(entry)}`;
 }
 
+function appHref(app, token = state.cacheToken) {
+  const baseHref = appBaseHref(app);
+  if (!isCacheBustEnabled(app)) return baseHref;
+  const version = appVersion(app);
+  if (version) {
+    return appendQueryParam(baseHref, "v", version);
+  }
+  return appendQueryParam(baseHref, "_v", token);
+}
+
+function bindDynamicCacheBust(anchor, app) {
+  if (!isCacheBustEnabled(app) || appVersion(app)) return;
+  const refreshHref = () => {
+    anchor.href = appHref(app, Date.now().toString(36));
+  };
+  anchor.addEventListener("click", refreshHref);
+  anchor.addEventListener("auxclick", refreshHref);
+}
+
 function coverUrl(app) {
   const cover = String(app.cover || "").trim();
   if (!cover) return "";
-  if (/^(https?:)?\/\//.test(cover) || cover.startsWith("/") || cover.startsWith("./") || cover.startsWith("../")) {
+  if (/^(https?:)?\/\//.test(cover)) {
     return cover;
   }
-  return `./apps/${encodePath(app.folder)}/${encodePath(cover)}`;
+  const url =
+    cover.startsWith("/") || cover.startsWith("./") || cover.startsWith("../")
+      ? cover
+      : `./apps/${encodePath(app.folder)}/${encodePath(cover)}`;
+  if (!isCacheBustEnabled(app)) return url;
+  const version = appVersion(app);
+  return version ? appendQueryParam(url, "v", version) : appendQueryParam(url, "_v", state.cacheToken);
 }
 
 function hashHue(text) {
@@ -88,6 +131,7 @@ function renderFilters() {
 }
 
 function renderCard(app) {
+  const baseHref = appBaseHref(app);
   const href = appHref(app);
   const article = document.createElement("article");
   article.className = "card";
@@ -95,6 +139,7 @@ function renderCard(app) {
   const link = document.createElement("a");
   link.className = "card-link";
   link.href = href;
+  bindDynamicCacheBust(link, app);
   if (app.newTab) {
     link.target = "_blank";
     link.rel = "noopener noreferrer";
@@ -144,7 +189,7 @@ function renderCard(app) {
 
   const path = document.createElement("p");
   path.className = "path";
-  path.textContent = href.replace(/^\.\//, "");
+  path.textContent = baseHref.replace(/^\.\//, "");
   body.append(path);
 
   link.append(cover, body);
@@ -152,6 +197,7 @@ function renderCard(app) {
   const open = document.createElement("a");
   open.className = "open-tab";
   open.href = href;
+  bindDynamicCacheBust(open, app);
   open.target = "_blank";
   open.rel = "noopener noreferrer";
   open.textContent = "新标签打开";
@@ -192,7 +238,8 @@ async function load() {
   }
 
   try {
-    const response = await fetch("./apps.json", { cache: "no-cache" });
+    state.cacheToken = Date.now().toString(36);
+    const response = await fetch(`./apps.json?_t=${state.cacheToken}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     const title = data.site?.title || "作品集";
@@ -202,6 +249,10 @@ async function load() {
     state.apps = (Array.isArray(data.apps) ? data.apps : []).filter((app) => {
       return app && app.folder && app.name && app.hidden !== true;
     });
+    const availableTags = new Set(state.apps.flatMap(tagsOf));
+    if (state.tag !== "all" && !availableTags.has(state.tag)) {
+      state.tag = "all";
+    }
     els.toolbar.hidden = false;
     render();
   } catch (error) {
@@ -213,6 +264,12 @@ async function load() {
 els.search.addEventListener("input", () => {
   state.query = els.search.value;
   render();
+});
+
+window.addEventListener("pageshow", (event) => {
+  if (event.persisted) {
+    load();
+  }
 });
 
 load();
