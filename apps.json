@@ -15,6 +15,17 @@
       "hidden": false,
       "cacheBust": false,
       "version": "1.0.0"
+    },
+    {
+      "folder": "racing-toy",
+      "name": "Racing Toy · 3D 赛车玩具",
+      "description": "基于 Three.js 与 Rapier 的交互式 3D 赛车玩具",
+      "tags": ["3D", "Three.js"],
+      "cover": "",
+      "entry": "index.html",
+      "newTab": false,
+      "hidden": false,
+      "version": "1.0.0"
     }
   ]
 }
