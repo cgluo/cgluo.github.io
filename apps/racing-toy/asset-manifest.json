@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "assets": {
+    "assets/cars/1975_porsche_911_930_turbo/model.glb": "f633938b7005",
+    "assets/cars/1998_mercedes-benz_clk_lm/model.glb": "1f79d9190e55",
+    "assets/cars/2004_maserati_mc12_stradale/model.glb": "c5cbaff7c154",
+    "assets/cars/2011_koenigsegg_agera/model.glb": "4f997d552c7a",
+    "assets/cars/2023_koenigsegg_jesko_attack/model.glb": "9d99d2bba9a6",
+    "assets/cars/2024_porsche_992_gt3_r/model.glb": "2e0d42c850dc",
+    "assets/cars/bmw_m4_f82/model.glb": "79ceddfeb36d",
+    "assets/cars/lamborghini_aventador_svj_sdc/model.glb": "2408a44064f4",
+    "assets/cars/mersedes-benz_g63_amg/model.glb": "a12779b23839",
+    "assets/cars/nissan_skyline_gtr_r35/model.glb": "a6c91765d6ad",
+    "assets/cars/porsche_919/model.glb": "a33b44f396ba",
+    "assets/environments/forest_valley_circuit/track.glb": "b595dadadce9",
+    "assets/environments/grand_prix_circuit/track.glb": "5c02f757bc53",
+    "assets/environments/hdri/kloppenheim_01_puresky_1k.hdr": "2d9eb00b9b35",
+    "assets/environments/hdri/kloppenheim_07_puresky_1k.hdr": "c18aa40364d1",
+    "assets/environments/hdri/qwantani_puresky_1k.hdr": "53279fa5e01a",
+    "assets/environments/hdri/showroom.hdr": "e7cfda5f4e98",
+    "assets/environments/hdri/syferfontein_1d_clear_puresky_1k.hdr": "d598873ab0ac",
+    "assets/environments/sunset_coast_loop/track.glb": "6bb112cad894"
+  }
+}
