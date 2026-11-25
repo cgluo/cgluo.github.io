@@ -1,27 +1,187 @@
 {
   "version": 1,
   "assets": {
-    "assets/cars/1975_porsche_911_930_turbo/model.glb": "f633938b7005",
+    "assets/cars/1975_porsche_911_930_turbo/model.glb.part00.bin": "3744c4020aba",
+    "assets/cars/1975_porsche_911_930_turbo/model.glb.part01.bin": "72d1bce9e129",
     "assets/cars/1998_mercedes-benz_clk_lm/model.glb": "1f79d9190e55",
     "assets/cars/2004_maserati_mc12_stradale/model.glb": "c5cbaff7c154",
     "assets/cars/2011_koenigsegg_agera/model.glb": "4f997d552c7a",
     "assets/cars/2023_koenigsegg_jesko_attack/model.glb": "9d99d2bba9a6",
-    "assets/cars/2024_porsche_992_gt3_r/model.glb": "2e0d42c850dc",
+    "assets/cars/2024_porsche_992_gt3_r/model.glb.part00.bin": "1bde21a4b1bc",
+    "assets/cars/2024_porsche_992_gt3_r/model.glb.part01.bin": "490ce59ef347",
     "assets/cars/bmw_m4_f82/model.glb": "79ceddfeb36d",
     "assets/cars/lamborghini_aventador_svj_sdc/model.glb": "2408a44064f4",
-    "assets/cars/mersedes-benz_g63_amg/model.glb": "a12779b23839",
+    "assets/cars/mersedes-benz_g63_amg/model.glb.part00.bin": "d0d267a7d353",
+    "assets/cars/mersedes-benz_g63_amg/model.glb.part01.bin": "c6c06b591e3e",
     "assets/cars/nissan_skyline_gtr_r35/model.glb": "a6c91765d6ad",
     "assets/cars/porsche_919/model.glb": "a33b44f396ba",
     "assets/cars/top_fuel_dragster/model.glb": "a4bba1d07908",
-    "assets/environments/burnout_revenge_white_mountain/track.glb": "4621474714a5",
-    "assets/environments/forest_valley_circuit/track.glb": "b595dadadce9",
-    "assets/environments/grand_prix_circuit/track.glb": "5c02f757bc53",
+    "assets/environments/burnout_revenge_white_mountain/track.glb.part00.bin": "d19eb1b94cd0",
+    "assets/environments/burnout_revenge_white_mountain/track.glb.part01.bin": "72b76eb53677",
+    "assets/environments/forest_valley_circuit/track.glb.part00.bin": "fefb48aacb6a",
+    "assets/environments/forest_valley_circuit/track.glb.part01.bin": "342de0ee8ae0",
+    "assets/environments/forest_valley_circuit/track.glb.part02.bin": "b13b880c50a1",
+    "assets/environments/grand_prix_circuit/track.glb.part00.bin": "8dfbc2284ec3",
+    "assets/environments/grand_prix_circuit/track.glb.part01.bin": "fbcc23c8a19d",
+    "assets/environments/grand_prix_circuit/track.glb.part02.bin": "749fdf2d3f53",
     "assets/environments/hdri/kloppenheim_01_puresky_1k.hdr": "2d9eb00b9b35",
     "assets/environments/hdri/kloppenheim_07_puresky_1k.hdr": "c18aa40364d1",
     "assets/environments/hdri/qwantani_puresky_1k.hdr": "53279fa5e01a",
     "assets/environments/hdri/showroom.hdr": "e7cfda5f4e98",
     "assets/environments/hdri/syferfontein_1d_clear_puresky_1k.hdr": "d598873ab0ac",
-    "assets/environments/kleine_nordschleife_1975/track.glb": "e8bbc90c15a3",
-    "assets/environments/sunset_coast_loop/track.glb": "6bb112cad894"
+    "assets/environments/kleine_nordschleife_1975/track.glb.part00.bin": "16c7f43ebed8",
+    "assets/environments/kleine_nordschleife_1975/track.glb.part01.bin": "42f85b8531b0",
+    "assets/environments/kleine_nordschleife_1975/track.glb.part02.bin": "d69735a79f80",
+    "assets/environments/nurburgring_gp_2016/track.glb.part00.bin": "490927054e1e",
+    "assets/environments/nurburgring_gp_2016/track.glb.part01.bin": "9ab503aa2cd7",
+    "assets/environments/nurburgring_gp_2016/track.glb.part02.bin": "0207802113fc",
+    "assets/environments/nurburgring_gp_2016/track.glb.part03.bin": "d6b6dc000427",
+    "assets/environments/nurburgring_gp_2016/track.glb.part04.bin": "8f99377c353c",
+    "assets/environments/sports_car_racing_paris/track.glb": "15cf872b58df",
+    "assets/environments/sunset_coast_loop/track.glb.part00.bin": "4abf072bb5d3",
+    "assets/environments/sunset_coast_loop/track.glb.part01.bin": "477d04c3f3f6"
+  },
+  "chunks": {
+    "assets/cars/1975_porsche_911_930_turbo/model.glb": {
+      "totalBytes": 15624064,
+      "parts": [
+        {
+          "path": "assets/cars/1975_porsche_911_930_turbo/model.glb.part00.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/cars/1975_porsche_911_930_turbo/model.glb.part01.bin",
+          "size": 7235456
+        }
+      ]
+    },
+    "assets/cars/2024_porsche_992_gt3_r/model.glb": {
+      "totalBytes": 10679504,
+      "parts": [
+        {
+          "path": "assets/cars/2024_porsche_992_gt3_r/model.glb.part00.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/cars/2024_porsche_992_gt3_r/model.glb.part01.bin",
+          "size": 2290896
+        }
+      ]
+    },
+    "assets/cars/mersedes-benz_g63_amg/model.glb": {
+      "totalBytes": 10242540,
+      "parts": [
+        {
+          "path": "assets/cars/mersedes-benz_g63_amg/model.glb.part00.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/cars/mersedes-benz_g63_amg/model.glb.part01.bin",
+          "size": 1853932
+        }
+      ]
+    },
+    "assets/environments/burnout_revenge_white_mountain/track.glb": {
+      "totalBytes": 11625752,
+      "parts": [
+        {
+          "path": "assets/environments/burnout_revenge_white_mountain/track.glb.part00.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/environments/burnout_revenge_white_mountain/track.glb.part01.bin",
+          "size": 3237144
+        }
+      ]
+    },
+    "assets/environments/forest_valley_circuit/track.glb": {
+      "totalBytes": 17904868,
+      "parts": [
+        {
+          "path": "assets/environments/forest_valley_circuit/track.glb.part00.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/environments/forest_valley_circuit/track.glb.part01.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/environments/forest_valley_circuit/track.glb.part02.bin",
+          "size": 1127652
+        }
+      ]
+    },
+    "assets/environments/grand_prix_circuit/track.glb": {
+      "totalBytes": 24116656,
+      "parts": [
+        {
+          "path": "assets/environments/grand_prix_circuit/track.glb.part00.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/environments/grand_prix_circuit/track.glb.part01.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/environments/grand_prix_circuit/track.glb.part02.bin",
+          "size": 7339440
+        }
+      ]
+    },
+    "assets/environments/kleine_nordschleife_1975/track.glb": {
+      "totalBytes": 18978708,
+      "parts": [
+        {
+          "path": "assets/environments/kleine_nordschleife_1975/track.glb.part00.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/environments/kleine_nordschleife_1975/track.glb.part01.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/environments/kleine_nordschleife_1975/track.glb.part02.bin",
+          "size": 2201492
+        }
+      ]
+    },
+    "assets/environments/nurburgring_gp_2016/track.glb": {
+      "totalBytes": 35452188,
+      "parts": [
+        {
+          "path": "assets/environments/nurburgring_gp_2016/track.glb.part00.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/environments/nurburgring_gp_2016/track.glb.part01.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/environments/nurburgring_gp_2016/track.glb.part02.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/environments/nurburgring_gp_2016/track.glb.part03.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/environments/nurburgring_gp_2016/track.glb.part04.bin",
+          "size": 1897756
+        }
+      ]
+    },
+    "assets/environments/sunset_coast_loop/track.glb": {
+      "totalBytes": 10127624,
+      "parts": [
+        {
+          "path": "assets/environments/sunset_coast_loop/track.glb.part00.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/environments/sunset_coast_loop/track.glb.part01.bin",
+          "size": 1739016
+        }
+      ]
+    }
   }
 }
