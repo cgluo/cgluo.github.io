@@ -18,6 +18,10 @@
     "assets/cars/top_fuel_dragster/model.glb": "a4bba1d07908",
     "assets/environments/burnout_revenge_white_mountain/track.glb.part00.bin": "d19eb1b94cd0",
     "assets/environments/burnout_revenge_white_mountain/track.glb.part01.bin": "72b76eb53677",
+    "assets/environments/chamonix_alps/track.glb.part00.bin": "18a2d751bc8b",
+    "assets/environments/chamonix_alps/track.glb.part01.bin": "2886e0666b48",
+    "assets/environments/chamonix_alps/track.glb.part02.bin": "9f8be50da7ac",
+    "assets/environments/chamonix_alps/track.glb.part03.bin": "2933a5a63a4f",
     "assets/environments/forest_valley_circuit/track.glb.part00.bin": "fefb48aacb6a",
     "assets/environments/forest_valley_circuit/track.glb.part01.bin": "342de0ee8ae0",
     "assets/environments/forest_valley_circuit/track.glb.part02.bin": "b13b880c50a1",
@@ -91,6 +95,27 @@
         {
           "path": "assets/environments/burnout_revenge_white_mountain/track.glb.part01.bin",
           "size": 3237144
+        }
+      ]
+    },
+    "assets/environments/chamonix_alps/track.glb": {
+      "totalBytes": 28011792,
+      "parts": [
+        {
+          "path": "assets/environments/chamonix_alps/track.glb.part00.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/environments/chamonix_alps/track.glb.part01.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/environments/chamonix_alps/track.glb.part02.bin",
+          "size": 8388608
+        },
+        {
+          "path": "assets/environments/chamonix_alps/track.glb.part03.bin",
+          "size": 2845968
         }
       ]
     },
